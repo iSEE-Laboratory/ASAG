@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of [ASAG](http://arxiv.org/abs/2308.09242) (ICCV 2023).
 
-![DETR](.github/overview.pdf)
+![DETR](.github/overview.png)
 
 ### 1 Introduction
 
@@ -11,13 +11,10 @@ This is the official PyTorch implementation of [ASAG](http://arxiv.org/abs/2308.
 
 <center>
 <figure>
-<img src=".github/ap_fps.pdf" />
-<img src=".github/anchor_generator.pdf" />
+<img src=".github/ap_fps.png" width="48%" />
+<img src=".github/anchor_generator.png" width="48%" />
 </figure>
 </center>
-
-
-
 
 ### 2 Model Zoo
 
