@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of [ASAG](http://arxiv.org/abs/2308.09242) (ICCV 2023).
 
-![DETR](https://github.com/iSEE-Laboratory/ASAG/tree/main/images/overview.pdf)
+![DETR](.github/overview.pdf)
 
 ### 1 Introduction
 
@@ -11,10 +11,11 @@ This is the official PyTorch implementation of [ASAG](http://arxiv.org/abs/2308.
 
 <center>
 <figure>
-<img src="https://github.com/iSEE-Laboratory/ASAG/tree/main/images/ap_fps.pdf" />
-<img src="https://github.com/iSEE-Laboratory/ASAG/tree/main/images/anchor_generator.pdf" />
+<img src=".github/ap_fps.pdf" />
+<img src=".github/anchor_generator.pdf" />
 </figure>
 </center>
+
 
 
 
