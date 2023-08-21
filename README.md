@@ -117,7 +117,7 @@ This is the official PyTorch implementation of [ASAG](http://arxiv.org/abs/2308.
 - Notes: 
   
   - All the checkpoints and logs are be found in [Google Drive](https://drive.google.com/drive/folders/1rkWQt7Z3R_tiWMpVyyqyo54H9XCVYJwG?usp=sharing) / [Baidu (pwd: asag)](https://pan.baidu.com/s/1XMGA1__1SABrg0o7zeD_kw)
-  - Results in the above table are tested on COCO datasets.
+  - Results in the above table are tested on COCO dataset.
   - In ASAG, we use 4 parallel decoders, most of which perform similarly (~0.2AP).
   - To test speed, users need to slightly modify the code, including:
     - use only one decoder: `--num_decoder_layers 1`
@@ -327,16 +327,15 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py --coco_p
 
 - We also run ASAG-S on [CrowdHuman](http://www.crowdhuman.org) dataset with R50, 50 epochs and the average number of anchors within 500.
 
-- Data preparation
-  After downloading the dataset, users should first convert the annotations to the coco format by running `crowdhumantools/convert_crowdhuman_to_coco.py`. Before running it, please make sure the file paths in it are correct.
-
+- Data preparation. After downloading the dataset, users should first convert the annotations to the coco format by running `crowdhumantools/convert_crowdhuman_to_coco.py`. Before running it, please make sure the file paths in it are correct.
+  
   ```
   path/to/crowdhuman/
     annotations/  				# annotation json files
     CrowdHuman_train/    	# train images
     CrowdHuman_val/      	# val images
   ```
-
+  
 - Training
 
   ```
