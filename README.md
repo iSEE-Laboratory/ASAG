@@ -384,6 +384,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py --coco_p
     </tr>
   </tbody>
 </table>
+
 - We run ASAG-A with our self-supervised pretrained backbone [CrossCL](https://github.com/iSEE-Laboratory/CrossCL) under 1x schedule, which can boost ASAG by 1.2 AP.
 
 - The pretrained backbone can be found in [Google Drive](https://drive.google.com/drive/folders/1rkWQt7Z3R_tiWMpVyyqyo54H9XCVYJwG?usp=sharing) / [Baidu (pwd: asag)](https://pan.baidu.com/s/1XMGA1__1SABrg0o7zeD_kw).
