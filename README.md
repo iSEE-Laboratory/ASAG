@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of [ASAG](http://arxiv.org/abs/2308.09242) (ICCV 2023).
 
-![DETR](images/overview.pdf)
+![DETR](https://github.com/iSEE-Laboratory/ASAG/tree/main/images/overview.pdf)
 
 ### 1 Introduction
 
@@ -11,10 +11,11 @@ This is the official PyTorch implementation of [ASAG](http://arxiv.org/abs/2308.
 
 <center>
 <figure>
-<img src="images/ap_fps.pdf" />
-<img src="images/anchor_generator.pdf" />
+<img src="https://github.com/iSEE-Laboratory/ASAG/tree/main/images/ap_fps.pdf" />
+<img src="https://github.com/iSEE-Laboratory/ASAG/tree/main/images/anchor_generator.pdf" />
 </figure>
 </center>
+
 
 
 ### 2 Model Zoo
@@ -382,7 +383,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py --coco_p
     </tr>
   </tbody>
 </table>
-- We run ASAG-A with our self-supervised pretrained backbone ([CrossCL](https://github.com/iSEE-Laboratory/CrossCL)) under 1$\times$ schedule, which can boost ASAG by 1.2 AP.
+- We run ASAG-A with our self-supervised pretrained backbone [CrossCL](https://github.com/iSEE-Laboratory/CrossCL) under 1x schedule, which can boost ASAG by 1.2 AP.
 
 - The pretrained backbone can be found in [Google Drive](https://drive.google.com/drive/folders/1rkWQt7Z3R_tiWMpVyyqyo54H9XCVYJwG?usp=sharing) / [Baidu (pwd: asag)](https://pan.baidu.com/s/1XMGA1__1SABrg0o7zeD_kw).
 
