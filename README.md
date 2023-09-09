@@ -139,7 +139,7 @@ path/to/coco/
 
 ### 4 Usage
 
-- To prevent users from confusing different ImageNet pretrained checkpoints, we require users to download the corresponding version of the checkpoint from [TorchVision](https://pytorch.org/vision/stable/models.html#table-of-all-available-classification-weights) manually. 
+- To prevent users from confusing different ImageNet pretrained checkpoints, we require users to download the corresponding version of the checkpoint from [TorchVision](https://pytorch.org/vision/stable/models.html#table-of-all-available-classification-weights) manually. (i.e. [R50v1](https://download.pytorch.org/models/resnet50-0676ba61.pth) and [R101v1](https://download.pytorch.org/models/resnet101-63fe2227.pth))
 - Our environment
   - NVIDIA RTX 3090
   - python: 3.7.12
